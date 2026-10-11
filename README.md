@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Reko Mäkelä: AI agents, automation and SEO for marketing, Helsinki. 314,000+ products compared and 29 online shops on Hintapiste.fi; 1,100+ agent code changes from July to October 2026, all tested; 69 test steps per change before release.">
+  <img src="assets/header-light.svg" width="100%" alt="Reko Mäkelä: AI agents, automation and SEO for marketing, Helsinki. 8 years of SEO, analytics and CRO, at Terveystalo since 2021; opening-hours A/B test in 6 cities, booking clicks up in 3; Grand One 2026 finalist, Best User Experience; Hintapiste.fi live, built solo with AI agents.">
 </picture>
 
 **[Portfolio](https://rekomakela.github.io/portfolio/en/)** · **[CV (PDF)](https://rekomakela.github.io/portfolio/en/cv/)** · **[Hintapiste.fi](https://hintapiste.fi)** · [LinkedIn](https://www.linkedin.com/in/reko-makela/) · reko.makela@gmail.com
@@ -46,9 +46,9 @@ flowchart LR
 Selected results at Terveystalo:
 
 - **Copilot agents** for the task list and analytics, without a paid licence. Colleagues use the same instructions.
-- **Opening-hours A/B test** in six cities: clicks through to booking rose in three, no difference in three.
+- **Tracking-link agent:** campaign codes from an approved list, now the team standard for internal links.
 - **Search Console reports** that say what changed, why it matters and what to do next.
-- **Grand One 2026:** one of two competition-entry pages reached the final, Best User Experience.
+- **AI-use guidance** for external consultants, co-author: data handling, approved tools, agent access, human review.
 
 ## Skills
 

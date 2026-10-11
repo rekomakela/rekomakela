@@ -11,10 +11,10 @@ THEMES = {
 W = 840
 
 STATS = [
-    ("314,000+", "products compared", "Hintapiste.fi"),
-    ("29", "online shops", "Hintapiste.fi"),
-    ("1,100+", "agent code changes", "Jul–Oct 2026, all tested"),
-    ("69", "test steps per change", "before release"),
+    ("8 years", "SEO, analytics and CRO", "Terveystalo since 2021"),
+    ("6 cities", "opening-hours A/B test", "booking clicks up in 3"),
+    ("Finalist", "Grand One 2026", "Best User Experience"),
+    ("Live", "Hintapiste.fi", "built solo with AI agents"),
 ]
 
 ROLES = [  # (label, place, start, end, own project)
@@ -50,7 +50,7 @@ def header(c):
         body.append(text(x + 16, top + 66, label, 14, c["fg"]))
         body.append(text(x + 16, top + 87, note, 12, c["muted"]))
     return svg(top + th + 2, body, "Reko Mäkelä: AI agents, automation and SEO for marketing, Helsinki. "
-               + "; ".join(f"{b} {l} ({n})" for b, l, n in STATS))
+               + "; ".join(f"{b}: {l}, {n}" for b, l, n in STATS))
 
 
 def timeline(c):
