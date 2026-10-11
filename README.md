@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Reko Mäkelä: AI agents, automation and SEO for marketing, Helsinki. 8 years of SEO, analytics and CRO, at Terveystalo since 2021; opening-hours A/B test in 6 cities, booking clicks up in 3; Grand One 2026 finalist, Best User Experience; Hintapiste.fi live, built solo with AI agents.">
+  <img src="assets/header-light.svg" width="100%" alt="Reko Mäkelä. SEO, CRO and analytics, with AI-assisted workflows, Helsinki. SEO and search demand since 2018 (affiliate sites, Terveystalo); CRO and A/B testing since 2021 (opening-hours test in 6 cities); analytics and reporting since 2021 (reports with next steps); AI-assisted workflows since 2024 (Searchint, Copilot agents).">
 </picture>
 
 **[Portfolio](https://rekomakela.github.io/portfolio/en/)** · **[CV (PDF)](https://rekomakela.github.io/portfolio/en/cv/)** · **[Hintapiste.fi](https://hintapiste.fi)** · [LinkedIn](https://www.linkedin.com/in/reko-makela/) · reko.makela@gmail.com
@@ -31,6 +31,15 @@ flowchart TB
 - **Runs with or without the UI:** the [workbench](https://rekomakela.github.io/portfolio/en/projects/searchint-workbench/) is its own app on top of [Searchint](https://rekomakela.github.io/portfolio/en/projects/searchint/).
 
 <sub>Employer-related system, described in general terms only. Code and data stay private.</sub>
+
+## Hintapiste.fi: search growth
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/growth-dark.svg">
+  <img src="assets/growth-light.svg" width="100%" alt="Hintapiste.fi daily Google Search impressions grew from 0 on 12 August to 438 on 9 October 2026. Last 3 months: 5,280 impressions, 42 clicks, average position 22.3.">
+</picture>
+
+A Finnish price comparison site I run alone; AI agents write the code. In two months, its daily Google impressions went from zero to about 440. Source: Google Search Console, 12 Aug to 9 Oct 2026.
 
 ## How the green squares get made
 
