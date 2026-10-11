@@ -27,12 +27,14 @@ flowchart LR
 
 | Project | What it does | Type |
 | --- | --- | --- |
+| [**Kaarat**](https://rekomakela.github.io/portfolio/en/projects/kaarat/) | Cars from many sellers in one place, matched to your needs, with risk checks | Own product |
+| [**Customer language miner**](https://rekomakela.github.io/portfolio/en/projects/discussion-mining/) | People's own words and needs from Finnish forums, every quote traced to its source | Research tool |
+| [**LocalRAG**](https://rekomakela.github.io/portfolio/en/projects/localrag/) | Search and question your own documents; local models, nothing leaves the machine | Dev tool |
+| [**Airfare tracker**](https://rekomakela.github.io/portfolio/en/projects/public-data-intelligence/) | Flight prices collected and checked: 323,676 daily fares across 2,124 routes (July 2026) | Experiment |
 | [**Hintapiste.fi**](https://rekomakela.github.io/portfolio/en/projects/hintatutka/) | Price comparison: 314,000+ products from 29 Finnish online shops, built by AI agents | Own product, live |
-| [**Tools for steering agents**](https://rekomakela.github.io/portfolio/en/projects/autonomous-product-lab/) | Every agent step leaves a result to check; shows what a change touches and which tests cover it | Dev tool |
 | [**Searchint**](https://rekomakela.github.io/portfolio/en/projects/searchint/) | Classifies search data for a large healthcare website, the same way every time, with sources | Work project |
+| [**Tools for steering agents**](https://rekomakela.github.io/portfolio/en/projects/autonomous-product-lab/) | Every agent step leaves a result to check; shows what a change touches and which tests cover it | Dev tool |
 | [**MCP Bridge**](https://rekomakela.github.io/portfolio/en/projects/mcp-bridge/) | Lets ChatGPT code on my Mac in allowed projects only; every action logged | Dev tool |
-| [**Digital Sales expert agent**](https://rekomakela.github.io/portfolio/en/projects/copilot-studio-expert/) | Copilot Studio agent: answers from agreed knowledge, asks before changing work systems | Work project, in testing |
-| [**Signum Decoder**](https://rekomakela.github.io/portfolio/en/projects/signum-decoder/) | AI reads an ad the way a semiotician does, every reading tied to what the ad shows | Experiment |
 
 [All 12 projects →](https://rekomakela.github.io/portfolio/en/projects/)
 
