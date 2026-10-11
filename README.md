@@ -1,45 +1,63 @@
-# Reko Mäkelä
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="100%" alt="Reko Mäkelä: AI agents, automation and SEO for marketing, Helsinki. 314,000+ products compared and 29 online shops on Hintapiste.fi; 1,100+ agent code changes from July to October 2026, all tested; 69 test steps per change before release.">
+</picture>
 
-I build AI agents for marketing that the team actually uses – and I teach everyone else to use them too. It all rests on years of hands-on SEO, analytics, UX and conversion optimisation. Helsinki, at Terveystalo since 2021.
+**[Portfolio](https://rekomakela.github.io/portfolio/en/)** · **[CV (PDF)](https://rekomakela.github.io/portfolio/en/cv/)** · **[Hintapiste.fi](https://hintapiste.fi)** · [LinkedIn](https://www.linkedin.com/in/reko-makela/) · reko.makela@gmail.com
 
-**Evidence:** [Portfolio](https://rekomakela.github.io/portfolio/en/) · [CV](https://rekomakela.github.io/portfolio/en/cv/) · [Hintapiste.fi](https://hintapiste.fi) (live product)
+I develop websites and digital services by combining search demand, analytics and what users need. I find what to improve, prioritise the work and build tools that turn findings into concrete actions.
 
-**Contact:** [Let's talk → reko.makela@gmail.com](mailto:reko.makela@gmail.com) · [LinkedIn](https://www.linkedin.com/in/reko-makela/)
+I bring together business goals, data-driven decisions and hands-on technical delivery. I use automation and AI to speed up repetitive work and make development processes clearer.
 
-## Private repos, agent-written commits
+## How the green squares get made
 
-The green squares are commits and pull requests made by coding agents (Codex, Claude Code) working in my repos. I set the task, the rules and the checks. The agents write the code. I review and accept. Since July 2026 that has been 1,100+ pull requests on one product alone, each through a 69-step local test run before merge.
+Most of my repos are private: employer work and third-party data. The commits in them are written by coding agents, under rules and checks I set:
 
-The repos are private because they hold a live product with affiliate revenue, work projects for my employer, and third-party product data. What you can check instead: the product itself (Hintapiste.fi), the evidence pages on the portfolio, and the CV. Ask, and I'll walk you through the code.
+```mermaid
+flowchart LR
+  A["I set the task,<br/>rules and checks"] --> B["Coordinator<br/>hands out work"]
+  B --> C["Codex and<br/>Claude Code agents"]
+  C --> D["69-step<br/>test run"]
+  D --> E["I review<br/>and approve"]
+  E --> F["Release<br/>(can roll back)"]
+  D -. fails .-> C
+```
 
-## 2026: products and systems built with agents
+## Projects
 
-- **Hintapiste.fi** – Finnish price comparison: 314,000+ products from 29 online shops, with category, brand and guide pages. Codex and Claude Code agents build it under a delivery model I designed: a coordinator hands out tasks, a scheduler keeps usage within quotas, a task graph (Beads) is the shared memory, and every release needs sign-off and has a rollback. Personal project, not a company. Live since summer 2026.
-- **Agent orchestration tools** – a controller decides the steps, the model can be swapped, and every step leaves a checkable result. Code-impact analysis shows what a change touches and which tests cover it. Run on a real pilot project.
-- **Digital Sales expert agent (Copilot Studio)** – for a sales and marketing team: answers from agreed knowledge, approval before any change to work systems, behaviour checked with evals and 13 tests. Work project, October 2026, still in the test environment.
-- **MCP Bridge** – local MCP server: ChatGPT codes on my Mac in allowed projects only, with a log of every action.
-- **Search market intelligence** – Search Console, Semrush and SE Ranking data turned into a picture of who shows up for which searches and where the gaps are. Every result can be traced to its source.
-- **LocalRAG** – search your own documents and ask questions about them. Local models on Apple Silicon; nothing leaves the machine.
+| Project | What it does | Type |
+| --- | --- | --- |
+| [**Hintapiste.fi**](https://rekomakela.github.io/portfolio/en/projects/hintatutka/) | Price comparison: 314,000+ products from 29 Finnish online shops, built by AI agents | Own product, live |
+| [**Tools for steering agents**](https://rekomakela.github.io/portfolio/en/projects/autonomous-product-lab/) | Every agent step leaves a result to check; shows what a change touches and which tests cover it | Dev tool |
+| [**Searchint**](https://rekomakela.github.io/portfolio/en/projects/searchint/) | Classifies search data for a large healthcare website, the same way every time, with sources | Work project |
+| [**MCP Bridge**](https://rekomakela.github.io/portfolio/en/projects/mcp-bridge/) | Lets ChatGPT code on my Mac in allowed projects only; every action logged | Dev tool |
+| [**Digital Sales expert agent**](https://rekomakela.github.io/portfolio/en/projects/copilot-studio-expert/) | Copilot Studio agent: answers from agreed knowledge, asks before changing work systems | Work project, in testing |
+| [**Signum Decoder**](https://rekomakela.github.io/portfolio/en/projects/signum-decoder/) | AI reads an ad the way a semiotician does, every reading tied to what the ad shows | Experiment |
 
-## Terveystalo 2021–2026: marketing agents, SEO, analytics, CRO
+[All 12 projects →](https://rekomakela.github.io/portfolio/en/projects/)
 
-- Microsoft 365 Copilot agents for backlog cards and analytics, built with instructions alone, no premium licence. Instructions in use by colleagues.
-- Tracking-link agent: campaign parameters from an approved value list. Team standard for internal links.
-- AI-assisted SEO workflow on Semrush and Search Console data, taught to colleagues in a hands-on workshop.
-- Co-author of the AI-use guidance for external consultants: data handling, approved tools, agent access, mandatory human review.
-- Search Console reporting redesigned: each report says what changed, why it matters and what to do next.
-- A/B tests on service pages (opening hours, call to action, price exposure), ad steering by appointment availability, a searchable experiment archive.
-- Service pages and health content written with clinical reviewers, a technical SEO audit, and two Grand One 2026 competition-entry pages (one a finalist, Best User Experience).
-- Before that: affiliate marketing and SEO consulting, 2018–2021.
+## Career
 
-## How I work
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-dark.svg">
+  <img src="assets/timeline-light.svg" width="100%" alt="Career timeline: affiliate marketing and SEO consulting 2018–2021; Terveystalo from 2021: SEO and digital marketing development, SEO / Digital Marketing Specialist from 2022, Digital Sales Specialist from 2024; Hintapiste.fi own project from July 2026.">
+</picture>
 
-- **Evidence first.** I sort out what we know, what we assume and what needs deciding. Only then do I build.
-- **A small working piece first.** Something you can see working, then the bigger thing on top of it.
-- **Agents do the work, people decide.** Goals, limits, sign-off and accountability stay with a person: me.
+Selected results at Terveystalo:
 
-## Stack
+- **Copilot agents** for the task list and analytics, without a paid licence. Colleagues use the same instructions.
+- **Opening-hours A/B test** in six cities: clicks through to booking rose in three, no difference in three.
+- **Search Console reports** that say what changed, why it matters and what to do next.
+- **Grand One 2026:** one of two competition-entry pages reached the final, Best User Experience.
 
-Claude Code, Codex, ChatGPT, Microsoft 365 Copilot, Copilot Studio, MCP, local LLMs · Python, TypeScript, Svelte, Rust, DuckDB, SQLite, Parquet, LanceDB · Google Search Console, Semrush, SE Ranking, Piwik PRO, Google Ads, Airtable
+## Skills
 
-Suomeksi: [portfolio ja CV](https://rekomakela.github.io/portfolio/) · [Jutellaan](mailto:reko.makela@gmail.com)
+| Area | Tools |
+| --- | --- |
+| Digital sales, SEO and search demand | Search demand, content strategy, organic visibility |
+| Conversion optimisation and user journeys | CRO, A/B tests, usability findings |
+| Web analytics and reporting | Google Search Console, Piwik PRO, STAT, Semrush |
+| Automation and technical prototyping | Python, pandas, JavaScript, HTML/CSS, Git/GitHub |
+| AI-assisted workflows | ChatGPT, Claude, Gemini, Codex, prompt and context design |
+
+<sub>Suomeksi: [portfolio ja CV](https://rekomakela.github.io/portfolio/)</sub>
