@@ -9,6 +9,29 @@ I develop websites and digital services by combining search demand, analytics an
 
 I bring together business goals, data-driven decisions and hands-on technical delivery. I use automation and AI to speed up repetitive work and make development processes clearer.
 
+## Searchint: from search data to decisions
+
+Workflows I built for SEO, conversion and UX work on a large healthcare website. Every step can be traced back to its source, and the same data always gives the same result.
+
+```mermaid
+flowchart TB
+  subgraph S[Sources]
+    direction LR
+    GSC[Search Console] ~~~ SEM[Semrush] ~~~ PP[Piwik PRO] ~~~ PC[Page captures]
+  end
+  S --> J["Joined by one page ID"]
+  J --> K["Classification: benchmarked, same result every time"]
+  K --> V["Views: demand, opportunities, specialties, pages"]
+  V --> I["Investigation keeps filters, dates and open questions"]
+  I --> D["Finding, action, recorded decision"]
+```
+
+- **Organised by what you look into** (a page, search term, specialty or investigation), not by data source.
+- **Read-only by design:** about 20 views, none of which can change the website or publish.
+- **Runs with or without the UI:** the [workbench](https://rekomakela.github.io/portfolio/en/projects/searchint-workbench/) is its own app on top of [Searchint](https://rekomakela.github.io/portfolio/en/projects/searchint/).
+
+<sub>Employer-related system, described in general terms only. Code and data stay private.</sub>
+
 ## How the green squares get made
 
 Most of my repos are private: employer work and third-party data. The commits in them are written by coding agents, under rules and checks I set:
@@ -31,8 +54,8 @@ flowchart LR
 | [**Customer language miner**](https://rekomakela.github.io/portfolio/en/projects/discussion-mining/) | People's own words and needs from Finnish forums, every quote traced to its source | Research tool |
 | [**LocalRAG**](https://rekomakela.github.io/portfolio/en/projects/localrag/) | Search and question your own documents; local models, nothing leaves the machine | Dev tool |
 | [**Airfare tracker**](https://rekomakela.github.io/portfolio/en/projects/public-data-intelligence/) | Flight prices collected and checked: 323,676 daily fares across 2,124 routes (July 2026) | Experiment |
+| [**Searchint**](https://rekomakela.github.io/portfolio/en/projects/searchint/) + [**Workbench**](https://rekomakela.github.io/portfolio/en/projects/searchint-workbench/) | Search, analytics and page data joined into investigations that end in recorded decisions | Work project |
 | [**Hintapiste.fi**](https://rekomakela.github.io/portfolio/en/projects/hintatutka/) | Price comparison: 314,000+ products from 29 Finnish online shops, built by AI agents | Own product, live |
-| [**Searchint**](https://rekomakela.github.io/portfolio/en/projects/searchint/) | Classifies search data for a large healthcare website, the same way every time, with sources | Work project |
 | [**Tools for steering agents**](https://rekomakela.github.io/portfolio/en/projects/autonomous-product-lab/) | Every agent step leaves a result to check; shows what a change touches and which tests cover it | Dev tool |
 | [**MCP Bridge**](https://rekomakela.github.io/portfolio/en/projects/mcp-bridge/) | Lets ChatGPT code on my Mac in allowed projects only; every action logged | Dev tool |
 
