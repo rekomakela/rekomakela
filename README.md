@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Reko Mäkelä. SEO, CRO and analytics, with AI-assisted workflows, Helsinki. SEO and search demand since 2018 (affiliate sites, Terveystalo); CRO and A/B testing since 2021 (opening-hours test in 6 cities); analytics and reporting since 2021 (reports with next steps); AI-assisted workflows since 2024 (Searchint, Copilot agents).">
+  <img src="assets/header-light.svg" width="100%" alt="Reko Mäkelä. SEO, CRO and analytics, with AI-assisted workflows, Helsinki. SEO and search demand since 2018 (affiliate sites, Terveystalo); CRO and A/B testing since 2021 (opening-hours test in 6 cities); analytics and reporting since 2021 (reports with next steps); AI-assisted workflows since 2021 (Frase AI Writer beta tester; OpenAI API since 2022).">
 </picture>
 
 **[Portfolio](https://rekomakela.github.io/portfolio/en/)** · **[CV (PDF)](https://rekomakela.github.io/portfolio/en/cv/)** · **[Hintapiste.fi](https://hintapiste.fi)** · [LinkedIn](https://www.linkedin.com/in/reko-makela/) · reko.makela@gmail.com
@@ -93,6 +93,6 @@ Selected results at Terveystalo:
 | Conversion optimisation and user journeys | CRO, A/B tests, usability findings |
 | Web analytics and reporting | Google Search Console, Piwik PRO, STAT, Semrush |
 | Automation and technical prototyping | Python, pandas, JavaScript, HTML/CSS, Git/GitHub |
-| AI-assisted workflows | ChatGPT, Claude, Gemini, Codex, prompt and context design |
+| AI-assisted workflows (since 2021) | Generative AI for content and SEO since 2021 (Frase AI Writer beta tester, Jarvis/Jasper); OpenAI API since 2022 (Codex beta, GPT-4 API 2023); ChatGPT, Claude, Gemini, Codex, prompt and context design |
 
 <sub>Suomeksi: [portfolio ja CV](https://rekomakela.github.io/portfolio/)</sub>
