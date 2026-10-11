@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" width="100%" alt="Reko Mäkelä. SEO, CRO and analytics, with AI-assisted workflows, Helsinki. SEO and search demand since 2018 (affiliate sites, Terveystalo); CRO and A/B testing since 2021 (opening-hours test in 6 cities); analytics and reporting since 2021 (reports with next steps); AI-assisted workflows since 2021 (Frase AI Writer beta tester; OpenAI API since 2022).">
+  <img src="assets/header-light.svg" width="100%" alt="Reko Mäkelä. SEO, CRO and analytics, with AI-assisted workflows, Helsinki. SEO and search demand since 2018; CRO and A/B testing since 2021; analytics and reporting since 2021; AI-assisted workflows since 2021.">
 </picture>
 
 **[Portfolio](https://rekomakela.github.io/portfolio/en/)** · **[CV (PDF)](https://rekomakela.github.io/portfolio/en/cv/)** · **[Hintapiste.fi](https://hintapiste.fi)** · [LinkedIn](https://www.linkedin.com/in/reko-makela/) · reko.makela@gmail.com

@@ -10,11 +10,11 @@ THEMES = {
 }
 W = 840
 
-TILES = [  # (since, skill lines, proof)
-    ("Since 2018", ("SEO and", "search demand"), "Affiliate sites, Terveystalo"),
-    ("Since 2021", ("CRO and", "A/B testing"), "Opening-hours test, 6 cities"),
-    ("Since 2021", ("Analytics and", "reporting"), "Reports with next steps"),
-    ("Since 2024", ("AI-assisted", "workflows"), "Searchint, Copilot agents"),
+TILES = [  # (since, skill lines)
+    ("Since 2018", ("SEO and", "search demand")),
+    ("Since 2021", ("CRO and", "A/B testing")),
+    ("Since 2021", ("Analytics and", "reporting")),
+    ("Since 2021", ("AI-assisted", "workflows")),
 ]
 TAGLINE = "SEO, CRO and analytics, with AI-assisted workflows · Helsinki"
 
@@ -50,17 +50,16 @@ def header(c):
         text(0, 40, "Reko Mäkelä", 34, c["fg"], 600),
         text(0, 72, TAGLINE, 17, c["muted"]),
     ]
-    gap, top, th = 12, 100, 124
+    gap, top, th = 12, 100, 100
     tw = (W - gap * 3) / 4
-    for i, (since, lines, proof) in enumerate(TILES):
+    for i, (since, lines) in enumerate(TILES):
         x = i * (tw + gap)
         body.append(f'<rect x="{x + .5}" y="{top + .5}" width="{tw - 1}" height="{th - 1}" rx="10" fill="{c["tile"]}" stroke="{c["line"]}"/>')
         body.append(text(x + 16, top + 28, since, 12, c["accent"], 600))
         body.append(text(x + 16, top + 54, lines[0], 19, c["fg"], 600))
         body.append(text(x + 16, top + 78, lines[1], 19, c["fg"], 600))
-        body.append(text(x + 16, top + 106, proof, 13, c["muted"]))
     return svg(top + th + 2, body, f"Reko Mäkelä. {TAGLINE}. "
-               + "; ".join(f"{' '.join(l)}, {s.lower()}: {p}" for s, l, p in TILES))
+               + "; ".join(f"{' '.join(l)}, {s.lower()}" for s, l in TILES))
 
 
 def growth(c):
