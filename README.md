@@ -36,7 +36,7 @@ flowchart TB
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/growth-dark.svg">
-  <img src="assets/growth-light.svg" width="100%" alt="Hintapiste.fi daily Google Search impressions grew from 0 on 12 August to 438 on 9 October 2026. Last 3 months: 5,280 impressions, 42 clicks, average position 22.3.">
+  <img src="assets/growth-light.svg" width="100%" alt="Hintapiste.fi daily Google Search impressions grew from 0 on 12 August to 437 on 9 October 2026. Last 3 months: 5,278 impressions, 42 clicks, average position 22.3.">
 </picture>
 
 A Finnish price comparison site I run alone; AI agents write the code. In two months, its daily Google impressions went from zero to about 440. Source: Google Search Console, 12 Aug to 9 Oct 2026.
@@ -67,6 +67,7 @@ flowchart LR
 | [**Hintapiste.fi**](https://rekomakela.github.io/portfolio/en/projects/hintatutka/) | Price comparison: 314,000+ products from 29 Finnish online shops, built by AI agents | Own product, live |
 | [**Tools for steering agents**](https://rekomakela.github.io/portfolio/en/projects/autonomous-product-lab/) | Every agent step leaves a result to check; shows what a change touches and which tests cover it | Dev tool |
 | [**MCP Bridge**](https://rekomakela.github.io/portfolio/en/projects/mcp-bridge/) | Lets ChatGPT code on my Mac in allowed projects only; every action logged | Dev tool |
+| [**Signum**](https://github.com/rekomakela/signum-ads) | Reads ads the way Judith Williamson did in _Decoding Advertisements_ (1978), with a local vision model: 89 ads decoded, every claim tied to what you can see. [Browse the archive](https://rekomakela.github.io/signum-ads/) | Research tool |
 
 [All 12 projects →](https://rekomakela.github.io/portfolio/en/projects/)
 

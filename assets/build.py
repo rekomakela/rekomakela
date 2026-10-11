@@ -18,13 +18,13 @@ TILES = [  # (since, skill lines, proof)
 ]
 TAGLINE = "SEO, CRO and analytics, with AI-assisted workflows · Helsinki"
 
-# Hintapiste.fi daily Google Search impressions, 12 Aug to 9 Oct 2026, read off the
-# Search Console performance chart (sums to 5,293; Search Console total 5.28k).
+# Hintapiste.fi daily Google Search impressions, 12 Aug to 9 Oct 2026, from the Search
+# Console performance export (Dates table; sums to 5,278).
 GROWTH_START = (2026, 8, 12)
-GROWTH = [0, 0, 0, 17, 19, 12, 23, 26, 14, 17, 19, 24, 30, 35, 40, 38, 31, 51, 63, 101, 68, 65, 75, 63,
-          68, 75, 82, 44, 52, 59, 119, 59, 54, 101, 126, 147, 155, 117, 140, 113, 131, 117, 141, 167,
-          112, 122, 133, 108, 133, 87, 134, 117, 99, 169, 140, 145, 171, 288, 438]
-GROWTH_TOTALS = "5,280 impressions · 42 clicks · average position 22.3 · last 3 months"
+GROWTH = [0, 0, 1, 18, 20, 13, 23, 26, 15, 17, 19, 23, 28, 33, 39, 38, 32, 51, 63, 101, 68, 65, 75,
+          63, 67, 74, 81, 43, 52, 59, 118, 60, 54, 102, 125, 147, 155, 115, 140, 113, 130, 116, 141,
+          169, 110, 121, 131, 108, 133, 85, 133, 117, 99, 169, 139, 145, 172, 287, 437]
+GROWTH_TOTALS = "5,278 impressions · 42 clicks · average position 22.3 · last 3 months"
 
 ROLES = [  # (label, place, start, end, own project)
     ("Affiliate marketing and SEO consulting", "Independent", 2018.0, 2021.67, False),
