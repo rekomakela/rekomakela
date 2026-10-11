@@ -1,4 +1,10 @@
-"""Write the profile SVGs (light and dark) next to this file: python3 assets/build.py"""
+"""Write the profile SVGs (light and dark) next to this file: python3 assets/build.py
+
+python3 assets/build.py --fetch first refreshes contributions.json with the gh CLI.
+"""
+import json
+import subprocess
+import sys
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -16,6 +22,15 @@ TILES = [  # (since, skill lines)
     ("Since 2021", ("Analytics and", "reporting")),
     ("Since 2021", ("AI-assisted", "workflows")),
 ]
+# GitHub's own contribution colours, NONE to FOURTH_QUARTILE.
+LEVELS = {
+    "light": ["#eff2f5", "#aceebb", "#4ac26b", "#2da44e", "#116329"],
+    "dark": ["#151b23", "#033a16", "#196c2e", "#2ea043", "#56d364"],
+}
+LEVEL_NAMES = ["NONE", "FIRST_QUARTILE", "SECOND_QUARTILE", "THIRD_QUARTILE", "FOURTH_QUARTILE"]
+CONTRIB = OUT / "contributions.json"
+CONTRIB_QUERY = ("{viewer{contributionsCollection{contributionCalendar{totalContributions "
+                 "weeks{contributionDays{date contributionCount contributionLevel}}}}}}")
 TAGLINE = "SEO, CRO and analytics, with AI-assisted workflows · Helsinki"
 
 # Hintapiste.fi daily Google Search impressions, 12 Aug to 9 Oct 2026, from the Search
@@ -92,6 +107,46 @@ def growth(c):
     return svg(bottom + 30, body, title)
 
 
+def fetch_contributions():
+    out = subprocess.run(["gh", "api", "graphql", "-f", f"query={CONTRIB_QUERY}"],
+                         check=True, capture_output=True, text=True).stdout
+    cal = json.loads(out)["data"]["viewer"]["contributionsCollection"]["contributionCalendar"]
+    weeks = [[[d["date"], d["contributionCount"], LEVEL_NAMES.index(d["contributionLevel"])]
+              for d in w["contributionDays"]] for w in cal["weeks"]]
+    CONTRIB.write_text(json.dumps({"total": cal["totalContributions"], "weeks": weeks}) + "\n", encoding="utf-8")
+
+
+def contributions(c, levels):
+    import datetime
+    data = json.loads(CONTRIB.read_text(encoding="utf-8"))
+    weeks = data["weeks"]
+    step = W / len(weeks)
+    cell, top = step - 3, 58
+    end = datetime.date.fromisoformat(weeks[-1][-1][0])
+    total = f"{data['total']:,}"
+    body = [
+        text(0, 22, f"{total} contributions in the last year", 18, c["fg"], 600),
+        text(W, 22, f"to {end.day} {end.strftime('%b %Y')}", 13, c["muted"], anchor="end"),
+    ]
+    seen = None
+    for i, week in enumerate(weeks):
+        first = datetime.date.fromisoformat(week[0][0])
+        if first.month != seen and first.day <= 7:
+            if i < len(weeks) - 2:
+                body.append(text(i * step, top - 10, first.strftime("%b"), 12, c["muted"]))
+            seen = first.month
+        for date, _, level in week:
+            row = (datetime.date.fromisoformat(date).weekday() + 1) % 7  # GitHub rows start on Sunday
+            body.append(f'<rect x="{i * step:.1f}" y="{top + row * step:.1f}" width="{cell:.1f}" '
+                        f'height="{cell:.1f}" rx="2" fill="{levels[level]}"/>')
+    bottom = top + 7 * step
+    active = [d for w in weeks for d in w if d[1]]
+    first_active = datetime.date.fromisoformat(active[0][0]) if active else end
+    title = (f"GitHub contributions: {total} in the year to {end.day} {end.strftime('%b %Y')}, "
+             f"all since {first_active.strftime('%B %Y')}.")
+    return svg(round(bottom + 4), body, title)
+
+
 def timeline(c):
     y0, row, left, right = 16, 38, 0, W
     start, end = 2018.0, 2027.0
@@ -116,7 +171,10 @@ def timeline(c):
     return svg(axis + 26, body, "Career timeline: " + "; ".join(f"{l}, {p}, {int(a)}–{'now' if b > 2026.7 else int(b)}" for l, p, a, b, _ in ROLES))
 
 
+if "--fetch" in sys.argv:
+    fetch_contributions()
 for name, theme in THEMES.items():
+    (OUT / f"contributions-{name}.svg").write_text(contributions(theme, LEVELS[name]), encoding="utf-8")
     (OUT / f"header-{name}.svg").write_text(header(theme), encoding="utf-8")
     (OUT / f"timeline-{name}.svg").write_text(timeline(theme), encoding="utf-8")
     (OUT / f"growth-{name}.svg").write_text(growth(theme), encoding="utf-8")

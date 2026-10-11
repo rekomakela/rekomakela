@@ -5,6 +5,11 @@
 
 **[Portfolio](https://rekomakela.github.io/portfolio/en/)** · **[CV (PDF)](https://rekomakela.github.io/portfolio/en/cv/)** · **[Hintapiste.fi](https://hintapiste.fi)** · [LinkedIn](https://www.linkedin.com/in/reko-makela/) · reko.makela@gmail.com
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
+  <img src="assets/contributions-light.svg" width="100%" alt="GitHub contributions: 11,166 in the year to 12 Oct 2026, all since May 2026.">
+</picture>
+
 I develop websites and digital services by combining search demand, analytics and what users need. I find what to improve, prioritise the work and build tools that turn findings into concrete actions.
 
 I bring together business goals, data-driven decisions and hands-on technical delivery. I use automation and AI to speed up repetitive work and make development processes clearer.
