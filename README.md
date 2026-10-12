@@ -9,10 +9,9 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
   <img src="assets/contributions-light.svg" width="100%" alt="GitHub contributions: 11,166 in the year to 12 Oct 2026, all since May 2026.">
 </picture>
+I build and scale digital products by connecting commercial goals with market demand, data and user behaviour. I look for where value can be created, set priorities around the biggest opportunities and turn strategy into products, systems and ways of working that scale.
 
-I develop websites and digital services by combining search demand, analytics and what users need. I find what to improve, prioritise the work and build tools that turn findings into concrete actions.
-
-I bring together business goals, data-driven decisions and hands-on technical delivery. I use automation and AI to speed up repetitive work and make development processes clearer.
+I bring a builder mentality to product strategy: hands-on when needed, commercially focused and always looking for leverage through automation, AI and better decision-making.
 
 ## Searchint: from search data to decisions
 
