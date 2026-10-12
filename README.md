@@ -7,11 +7,6 @@ I make websites easier to find and easier to use. I work from search and analyti
 
 **[Portfolio](https://rekomakela.github.io/portfolio/en/)** · **[CV (PDF)](https://rekomakela.github.io/portfolio/en/cv/)** · **[Hintapiste.fi](https://hintapiste.fi)** · [LinkedIn](https://www.linkedin.com/in/reko-makela/) · reko.makela@gmail.com
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
-  <img src="assets/contributions-light.svg" width="100%" alt="GitHub contributions: 11,166 in the year to 12 Oct 2026, all since May 2026.">
-</picture>
-
 ## Searchint: from search data to decisions
 
 Tools I built for SEO, conversion and UX work on a large healthcare website. They bring search, analytics and page data together, so every finding can be traced back to its source.
