@@ -65,6 +65,7 @@ flowchart LR
 | [**LocalRAG**](https://rekomakela.github.io/portfolio/en/projects/localrag/) | Ask questions about your own documents; nothing leaves your computer | Developer tool |
 | [**Tools for steering agents**](https://rekomakela.github.io/portfolio/en/projects/autonomous-product-lab/) | Shows what an AI agent changed, what else it affects and which tests cover it | Developer tool |
 | [**MCP Bridge**](https://rekomakela.github.io/portfolio/en/projects/mcp-bridge/) | Lets ChatGPT work on code on my Mac, only in projects I allow; every action is logged | Developer tool |
+| **ChatGPT plugins** | Ready-made workflows for ChatGPT: 22 skills for developing Hintapiste.fi, and a tool that compares purchases by price with delivery | Developer tool |
 
 [All 12 projects →](https://rekomakela.github.io/portfolio/en/projects/)
 
