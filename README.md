@@ -40,7 +40,7 @@ A Finnish price comparison site I run alone. AI agents write the code. In two mo
 
 ## Where the green squares come from
 
-Most of my repositories are private, because they hold employer work or other people's data. AI coding agents write the commits; I set the rules and approve the result:
+Most of my repositories are private production apps and internal tooling. AI coding agents write the commits; I set the rules and approve the result:
 
 ```mermaid
 flowchart LR
