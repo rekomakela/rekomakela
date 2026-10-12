@@ -9,10 +9,7 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
   <img src="assets/contributions-light.svg" width="100%" alt="GitHub contributions: 11,166 in the year to 12 Oct 2026, all since May 2026.">
 </picture>
-I build and scale digital products by connecting commercial goals with market demand, data and user behaviour. I look for where value can be created, set priorities around the biggest opportunities and turn strategy into products, systems and ways of working that scale.
-
-I bring a builder mentality to product strategy: hands-on when needed, commercially focused and always looking for leverage through automation, AI and better decision-making.
-
+Scaling digital products through data, user insight, and AI-driven automation with a hands-on builder mindset.
 ## Searchint: from search data to decisions
 
 Workflows I built for SEO, conversion and UX work on a large healthcare website. Every step can be traced back to its source, and the same data always gives the same result.
