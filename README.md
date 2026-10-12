@@ -3,35 +3,36 @@
   <img src="assets/header-light.svg" width="100%" alt="Reko Mäkelä. SEO, CRO and analytics, with AI-assisted workflows, Helsinki. SEO and search demand since 2018; CRO and A/B testing since 2021; analytics and reporting since 2021; AI-assisted workflows since 2021.">
 </picture>
 
+I make websites easier to find and easier to use. I work from search and analytics data, test changes, and build tools that take over the repetitive work.
+
 **[Portfolio](https://rekomakela.github.io/portfolio/en/)** · **[CV (PDF)](https://rekomakela.github.io/portfolio/en/cv/)** · **[Hintapiste.fi](https://hintapiste.fi)** · [LinkedIn](https://www.linkedin.com/in/reko-makela/) · reko.makela@gmail.com
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
   <img src="assets/contributions-light.svg" width="100%" alt="GitHub contributions: 11,166 in the year to 12 Oct 2026, all since May 2026.">
 </picture>
-Scaling digital products through data, user insight, and AI-driven automation with a hands-on builder mindset.
+
 ## Searchint: from search data to decisions
 
-Workflows I built for SEO, conversion and UX work on a large healthcare website. Every step can be traced back to its source, and the same data always gives the same result.
+Tools I built for SEO, conversion and UX work on a large healthcare website. They bring search, analytics and page data together, so every finding can be traced back to its source.
 
 ```mermaid
 flowchart TB
-  subgraph S[Sources]
+  subgraph S[Data sources]
     direction LR
     GSC[Search Console] ~~~ SEM[Semrush] ~~~ PP[Piwik PRO] ~~~ PC[Page captures]
   end
-  S --> J["Joined by one page ID"]
-  J --> K["Classification: benchmarked, same result every time"]
-  K --> V["Views: demand, opportunities, specialties, pages"]
-  V --> I["Investigation keeps filters, dates and open questions"]
-  I --> D["Finding, action, recorded decision"]
+  S --> J["Combined page by page"]
+  J --> K["Sorted into topics,<br/>the same way every time"]
+  K --> I["Investigation of one question"]
+  I --> D["Decision, written down"]
 ```
 
-- **Organised by what you look into** (a page, search term, specialty or investigation), not by data source.
-- **Read-only by design:** about 20 views, none of which can change the website or publish.
-- **Runs with or without the UI:** the [workbench](https://rekomakela.github.io/portfolio/en/projects/searchint-workbench/) is its own app on top of [Searchint](https://rekomakela.github.io/portfolio/en/projects/searchint/).
+- **Starts from a question:** a page, a search term or a medical specialty, not a data source.
+- **Read-only:** none of its about 20 views can change the website.
+- **Two parts:** [Searchint](https://rekomakela.github.io/portfolio/en/projects/searchint/) does the work; the [workbench](https://rekomakela.github.io/portfolio/en/projects/searchint-workbench/) is the app for using it.
 
-<sub>Employer-related system, described in general terms only. Code and data stay private.</sub>
+<sub>Built at work. Described in general terms only; code and data stay private.</sub>
 
 ## Hintapiste.fi: search growth
 
@@ -40,19 +41,19 @@ flowchart TB
   <img src="assets/growth-light.svg" width="100%" alt="Hintapiste.fi daily Google Search impressions grew from 0 on 12 August to 437 on 9 October 2026. Last 3 months: 5,278 impressions, 42 clicks, average position 22.3.">
 </picture>
 
-A Finnish price comparison site I run alone; AI agents write the code. In two months, its daily Google impressions went from zero to about 440. Source: Google Search Console, 12 Aug to 9 Oct 2026.
+A Finnish price comparison site I run alone. AI agents write the code. In two months it went from zero to about 440 Google search appearances a day (Google Search Console, 12 Aug to 9 Oct 2026).
 
-## How the green squares get made
+## Where the green squares come from
 
-Most of my repos are private: employer work and third-party data. The commits in them are written by coding agents, under rules and checks I set:
+Most of my repositories are private, because they hold employer work or other people's data. AI coding agents write the commits; I set the rules and approve the result:
 
 ```mermaid
 flowchart LR
-  A["I set the task,<br/>rules and checks"] --> B["Coordinator<br/>hands out work"]
-  B --> C["Codex and<br/>Claude Code agents"]
-  C --> D["69-step<br/>test run"]
+  A["I set the task<br/>and the rules"] --> B["Work is split<br/>between agents"]
+  B --> C["AI coding<br/>agents"]
+  C --> D["69 automatic<br/>tests"]
   D --> E["I review<br/>and approve"]
-  E --> F["Release<br/>(can roll back)"]
+  E --> F["Release<br/>(can be undone)"]
   D -. fails .-> C
 ```
 
@@ -60,15 +61,15 @@ flowchart LR
 
 | Project | What it does | Type |
 | --- | --- | --- |
+| [**Hintapiste.fi**](https://rekomakela.github.io/portfolio/en/projects/hintatutka/) | Compares prices of 314,000+ products from 29 Finnish online shops | Own product, live |
 | [**Kaarat**](https://rekomakela.github.io/portfolio/en/projects/kaarat/) | Cars from many sellers in one place, matched to your needs, with risk checks | Own product |
-| [**Customer language miner**](https://rekomakela.github.io/portfolio/en/projects/discussion-mining/) | People's own words and needs from Finnish forums, every quote traced to its source | Research tool |
-| [**LocalRAG**](https://rekomakela.github.io/portfolio/en/projects/localrag/) | Search and question your own documents; local models, nothing leaves the machine | Dev tool |
-| [**Airfare tracker**](https://rekomakela.github.io/portfolio/en/projects/public-data-intelligence/) | Flight prices collected and checked: 323,676 daily fares across 2,124 routes (July 2026) | Experiment |
-| [**Searchint**](https://rekomakela.github.io/portfolio/en/projects/searchint/) + [**Workbench**](https://rekomakela.github.io/portfolio/en/projects/searchint-workbench/) | Search, analytics and page data joined into investigations that end in recorded decisions | Work project |
-| [**Hintapiste.fi**](https://rekomakela.github.io/portfolio/en/projects/hintatutka/) | Price comparison: 314,000+ products from 29 Finnish online shops, built by AI agents | Own product, live |
-| [**Tools for steering agents**](https://rekomakela.github.io/portfolio/en/projects/autonomous-product-lab/) | Every agent step leaves a result to check; shows what a change touches and which tests cover it | Dev tool |
-| [**MCP Bridge**](https://rekomakela.github.io/portfolio/en/projects/mcp-bridge/) | Lets ChatGPT code on my Mac in allowed projects only; every action logged | Dev tool |
-| [**Signum**](https://github.com/rekomakela/signum-ads) | Reads ads the way Judith Williamson did in _Decoding Advertisements_ (1978), with a local vision model: 89 ads decoded, every claim tied to what you can see. [Browse the archive](https://rekomakela.github.io/signum-ads/) | Research tool |
+| [**Searchint**](https://rekomakela.github.io/portfolio/en/projects/searchint/) + [**Workbench**](https://rekomakela.github.io/portfolio/en/projects/searchint-workbench/) | Search, analytics and page data in one place; findings end in written decisions | Work project |
+| [**Customer language miner**](https://rekomakela.github.io/portfolio/en/projects/discussion-mining/) | What people say they need, from Finnish forums; every quote links to its source | Research tool |
+| [**Signum**](https://github.com/rekomakela/signum-ads) | Explains what an ad is trying to make you believe: 89 ads decoded, based on Judith Williamson's _Decoding Advertisements_ (1978). [Browse the archive](https://rekomakela.github.io/signum-ads/) | Research tool |
+| [**Airfare tracker**](https://rekomakela.github.io/portfolio/en/projects/public-data-intelligence/) | Collects and checks flight prices: 323,676 daily fares on 2,124 routes (July 2026) | Experiment |
+| [**LocalRAG**](https://rekomakela.github.io/portfolio/en/projects/localrag/) | Ask questions about your own documents; nothing leaves your computer | Developer tool |
+| [**Tools for steering agents**](https://rekomakela.github.io/portfolio/en/projects/autonomous-product-lab/) | Shows what an AI agent changed, what else it affects and which tests cover it | Developer tool |
+| [**MCP Bridge**](https://rekomakela.github.io/portfolio/en/projects/mcp-bridge/) | Lets ChatGPT work on code on my Mac, only in projects I allow; every action is logged | Developer tool |
 
 [All 12 projects →](https://rekomakela.github.io/portfolio/en/projects/)
 
@@ -81,19 +82,19 @@ flowchart LR
 
 Selected results at Terveystalo:
 
-- **Copilot agents** for the task list and analytics, without a paid licence. Colleagues use the same instructions.
-- **Tracking-link agent:** campaign codes from an approved list, now the team standard for internal links.
-- **Search Console reports** that say what changed, why it matters and what to do next.
-- **AI-use guidance** for external consultants, co-author: data handling, approved tools, agent access, human review.
+- **AI assistants for the team:** Copilot agents for task lists and analytics, without a paid licence. Colleagues use the same instructions.
+- **Campaign links:** an agent that builds tracking codes from an approved list. It is now the team standard.
+- **Search reports** that say what changed, why it matters and what to do next.
+- **AI guidelines for consultants (co-author):** how to handle data, which tools are allowed, what agents may access, and when a person must review.
 
 ## Skills
 
-| Area | Tools |
+| Area | What I use |
 | --- | --- |
-| Digital sales, SEO and search demand | Search demand, content strategy, organic visibility |
-| Conversion optimisation and user journeys | CRO, A/B tests, usability findings |
-| Web analytics and reporting | Google Search Console, Piwik PRO, STAT, Semrush |
-| Automation and technical prototyping | Python, pandas, JavaScript, HTML/CSS, Git/GitHub |
-| AI-assisted workflows (since 2021) | Generative AI for content and SEO since 2021 (Frase AI Writer beta tester, Jarvis/Jasper); OpenAI API since 2022 (Codex beta, GPT-4 API 2023); ChatGPT, Claude, Gemini, Codex, prompt and context design |
+| SEO and search demand | Search demand, content strategy, organic visibility |
+| Conversion and user journeys | A/B tests, usability findings |
+| Analytics and reporting | Google Search Console, Piwik PRO, STAT, Semrush |
+| Automation and prototypes | Python, pandas, JavaScript, HTML/CSS, Git |
+| AI-assisted work | AI for content and SEO since 2021; OpenAI API since 2022; ChatGPT, Claude, Gemini, Codex |
 
 <sub>Suomeksi: [portfolio ja CV](https://rekomakela.github.io/portfolio/)</sub>
