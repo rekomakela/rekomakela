@@ -1,19 +1,19 @@
 # Reko Mäkelä
 
-Product lead who designs the service, sets the limits for AI agents and checks what they build. Helsinki, Finland. Open to product lead roles in AI-agent development, search and UX.
+Product designer and engineer who designs the service, builds it hands-on with AI agents and checks every change before it ships. Helsinki, Finland. Open to product designer and product engineer roles in AI-agent development, search and UX.
 
 **[Case studies](https://agenticproductdesign.dev/projects/)** · **[How I build](https://agenticproductdesign.dev/how-i-build/)** · **[CV (PDF)](https://agenticproductdesign.dev/cv/reko-makela-cv-en.pdf)** · [About](https://agenticproductdesign.dev/about/) · [LinkedIn](https://www.linkedin.com/in/reko-makela/) · reko.makela@gmail.com
 
 ## Hintapiste.fi, built solo with AI agents
 
-Since July 2026 a system of Codex and Claude Code agents has built [Hintapiste.fi](https://hintapiste.fi), a Finnish price comparison service, under my direction: 1,100+ code changes between July and October 2026, every one through a 69-step gate before merge. I designed the multi-agent system (agents working in parallel, a coordinator handing out work, a scheduler keeping usage within limits), wrote the agents' working instructions and the shared task graph, and set the quality bar.
+Since July 2026 a system of Codex and Claude Code agents has built [Hintapiste.fi](https://hintapiste.fi), a Finnish price comparison service, with me as the one person designing, building and shipping it: 1,100+ code changes between July and October 2026, every one through a 69-step gate before merge. I designed the multi-agent system (agents working in parallel, a coordinator handing out work, a scheduler keeping usage within limits), wrote the agents' working instructions and the shared task graph, set the quality bar and read the diffs before they merged.
 
 ```mermaid
 flowchart LR
   A["I set the task<br/>and the rules"] --> B["A coordinator<br/>splits the work"]
   B --> C["Codex and Claude Code<br/>agents, in parallel"]
   C --> D["The gate:<br/>tests, types, build, checks"]
-  D --> E["I review<br/>and approve"]
+  D --> E["I review<br/>and ship"]
   E --> F["Merge publishes"]
   D -. fails .-> C
 ```
@@ -22,7 +22,7 @@ The [replay](https://agenticproductdesign.dev/how-i-build/) shows one real stret
 
 ## Where the green squares come from
 
-Most of my repositories are private: Hintapiste.fi, the tools around it and the research products below. AI coding agents write most of the commits; I set the rules, read the diffs and approve the result. The case studies are the public write-up; each carries its status and its evidence label, and every number on them has a source I can show.
+Most of my repositories are private: Hintapiste.fi, the tools around it and the research products below. AI coding agents write most of the commits; I design the service, build the system the agents work in, read the diffs and ship the result. The case studies are the public write-up; each carries its status and its evidence label, and every number on them has a source I can show.
 
 ## Projects
 
