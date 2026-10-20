@@ -1,71 +1,115 @@
 # Reko Mäkelä
 
-**Product designer & engineer** · AI agents, search intelligence & UX · Helsinki, Finland
+### Designing Digital Products and Engineering AI-Agent Development Systems
 
-## I design products. I build the systems that build them.
+**Product Designer & Engineer** · Helsinki, Finland
 
-I work across product design, software engineering and AI-assisted development. I turn complex problems into usable digital services, build the systems behind them, and make sure the result holds up beyond a demo.
+My work covers two connected areas: developing digital products and building the AI-agent systems used to develop software. That includes product definition, UX, information architecture, application engineering, agent coordination, automated testing and release processes.
 
-I don't just hand off designs or recommendations. I take responsibility for the path from problem and evidence to implementation, verification and release.
+I work on both the user-facing product and the development infrastructure behind it. AI agents can implement and test changes; product decisions, system constraints, review and release remain explicit human responsibilities.
 
-**[Portfolio & case studies](https://agenticproductdesign.dev/projects/)** · **[How I build](https://agenticproductdesign.dev/how-i-build/)** · **[CV](https://agenticproductdesign.dev/cv/reko-makela-cv-en.pdf)** · **[LinkedIn](https://www.linkedin.com/in/reko-makela/)**
-
----
-
-## Selected work
-
-### [Hintapiste.fi](https://hintapiste.fi) — A live product, built independently
-
-A Finnish price-comparison service that I design, engineer and operate. Behind the product is a multi-agent development system: Codex and Claude Code agents work in parallel, while shared tasks, automated checks and human review govern what reaches production.
-
-**1,100+ code changes (July–October 2026)** went through a 69-step pre-merge quality gate.
-
-[Explore the case study →](https://agenticproductdesign.dev/projects/hintatutka/)
-
-### [Searchint](https://agenticproductdesign.dev/projects/searchint/) — Search intelligence with traceable evidence
-
-An in-development system for making large-scale search data understandable and actionable. It connects queries, topics, pages and performance while keeping observed data distinct from interpretations and recommendations.
-
-[Explore Searchint →](https://agenticproductdesign.dev/projects/searchint/) · [Explore the analytics workbench →](https://agenticproductdesign.dev/projects/searchint-workbench/)
-
-### [Agent orchestration & governance](https://agenticproductdesign.dev/projects/autonomous-product-lab/) — The system behind the agents
-
-An in-development operating model for coordinating parallel coding agents: task graphs, bounded execution, quality gates, inspectable results and explicit human decisions about what ships.
-
-[See how I build →](https://agenticproductdesign.dev/how-i-build/)
-
-### [Signum Decoder](https://github.com/rekomakela/signum-ads) — Public code, local AI, explainable analysis
-
-A local vision-language-model system for interpreting advertisements. It separates visible observations from interpretations and links every claim back to supporting evidence.
-
-[Source code →](https://github.com/rekomakela/signum-ads) · [Explore the archive →](https://rekomakela.github.io/signum-ads/)
-
-**[Explore all 17 case studies →](https://agenticproductdesign.dev/projects/)**
+**[Portfolio](https://agenticproductdesign.dev/)** · **[Case studies](https://agenticproductdesign.dev/projects/)** · **[Development approach](https://agenticproductdesign.dev/how-i-build/)** · **[CV](https://agenticproductdesign.dev/cv/reko-makela-cv-en.pdf)** · **[LinkedIn](https://www.linkedin.com/in/reko-makela/)**
 
 ---
 
-## How I work
+## Areas of work
 
-**Understand the problem → Design the product → Build with agents → Test and inspect → Review and ship**
+**Digital product design and engineering**  
+Defining problems, structuring information, designing user journeys and building the applications that support them. The work extends from research and requirements through implementation, testing and production.
 
-AI agents do much of the implementation. I define the problem, design the product and its operating constraints, evaluate the output, and retain responsibility for release. The goal is more engineering capacity without losing traceability or judgment.
+**AI-agent development systems**  
+Designing workflows in which multiple coding agents can work on software projects. This includes task coordination, tool access, execution boundaries, shared context, validation, code review and controlled releases.
 
-Most of my product repositories are private. The [case studies](https://agenticproductdesign.dev/projects/) provide the public view of the work, with statuses and evidence.
+**Search, analytics and user experience**  
+Connecting search behavior, content, information architecture and product analytics to decisions about what to build or improve. Keeping measurements, interpretations and recommendations distinguishable is an important part of this work.
 
-## What I work with
+## Selected projects
 
-| Area | Tools and methods |
+### [Hintapiste.fi](https://hintapiste.fi) — Price comparison service
+
+*Live product · Independent development*
+
+A Finnish price-comparison platform for finding and comparing products across retailers. Work spans the product experience, data ingestion, search, backend services, frontend and production operations.
+
+The development workflow uses multiple AI coding agents to implement changes in parallel. Tasks, automated checks and human review determine what can be merged and released.
+
+**Technology:** SvelteKit, TypeScript, Python, PostgreSQL, Elasticsearch, Docker, Playwright and pytest.
+
+[Product case study](https://agenticproductdesign.dev/projects/hintatutka/) · [How the development workflow works](https://agenticproductdesign.dev/how-i-build/)
+
+### [AI-agent development systems](https://agenticproductdesign.dev/projects/autonomous-product-lab/) — Coordinating software development
+
+*In development*
+
+Systems and processes for assigning work to coding agents, coordinating parallel execution and checking outputs before integration. The focus is on making agent-generated changes inspectable, testable and manageable across a large codebase.
+
+The approach uses shared task state, explicit operating rules, automated quality gates and human-controlled merges and releases.
+
+[Development system case study](https://agenticproductdesign.dev/projects/autonomous-product-lab/) · [Agent governance principles](https://agenticproductdesign.dev/resources/agent-governance-rules/)
+
+### [Searchint](https://agenticproductdesign.dev/projects/searchint/) — Search intelligence and product analysis
+
+*In development*
+
+A system for analyzing search demand, query intent, page performance and opportunities to improve large websites. It brings different data sources into a common analytical workflow without treating estimates, observed measurements and conclusions as interchangeable.
+
+The related workbench supports page-level investigation across search data, analytics and findings.
+
+[Searchint case study](https://agenticproductdesign.dev/projects/searchint/) · [Analytics workbench](https://agenticproductdesign.dev/projects/searchint-workbench/)
+
+### [MCP Bridge](https://agenticproductdesign.dev/projects/mcp-bridge/) — Controlled access to local development tools
+
+*In development*
+
+A tool interface for connecting ChatGPT to approved projects and development operations on a local computer. Actions are constrained by project-level permissions and recorded so that execution can be inspected.
+
+[MCP Bridge case study](https://agenticproductdesign.dev/projects/mcp-bridge/)
+
+### [Signum Decoder](https://github.com/rekomakela/signum-ads) — Local AI for advertisement analysis
+
+*Public source code*
+
+A local vision-language-model application for analyzing advertisements. It distinguishes visible evidence from interpretation, connects claims to supporting observations and exposes the results for review.
+
+[GitHub repository](https://github.com/rekomakela/signum-ads) · [Browse the analysis archive](https://rekomakela.github.io/signum-ads/)
+
+**[View all projects and case studies](https://agenticproductdesign.dev/projects/)**
+
+---
+
+## Approach to AI-assisted development
+
+The goal is to make AI agents useful within a software development process that can be understood, checked and controlled.
+
+| Responsibility | Approach |
 | --- | --- |
-| **Product & growth** | Product design, UX, information architecture, SEO, CRO, experimentation, analytics |
-| **Engineering** | Python, TypeScript, SvelteKit, PostgreSQL, Elasticsearch, Docker, Playwright, pytest |
-| **Agentic systems** | Codex, Claude Code, MCP, agent orchestration, local LLMs, evaluations, guarded workflows |
+| **Product direction** | Define the user problem, requirements, constraints and acceptance criteria. |
+| **System design** | Establish architecture, interfaces, task boundaries and working rules. |
+| **Implementation** | Use coding agents for scoped development tasks, including code and tests. |
+| **Verification** | Run automated checks and inspect changes, failures and supporting evidence. |
+| **Release** | Review the result and explicitly decide what gets integrated or shipped. |
 
-## Background
+The development process is documented in [How I build](https://agenticproductdesign.dev/how-i-build/), with further notes on [quality gates](https://agenticproductdesign.dev/resources/agent-work-through-gates/) and [evaluating agent output](https://agenticproductdesign.dev/resources/evals-for-agent-output/).
 
-I work on digital consumer services at **Terveystalo**, across search, UX, conversion, analytics and service architecture. Alongside that work, I build and operate independent software products.
+## Technologies and methods
 
-**Selected writing:** [Running agent work through gates](https://agenticproductdesign.dev/resources/agent-work-through-gates/) · [Governance rules for coding agents](https://agenticproductdesign.dev/resources/agent-governance-rules/) · [Keeping evidence separate in SEO analysis](https://agenticproductdesign.dev/resources/evidence-separation-for-seo-data/)
+| Area | Tools and practices |
+| --- | --- |
+| **Product and UX** | Product design, user journeys, information architecture, SEO, CRO, experimentation and analytics |
+| **Applications and data** | Python, TypeScript, SvelteKit, PostgreSQL, Elasticsearch, APIs and data pipelines |
+| **Development and testing** | Git, Docker, Playwright, pytest, automated validation and code review |
+| **AI-agent systems** | Codex, Claude Code, MCP, multi-agent coordination, local LLMs and evaluations |
 
-Open to conversations about **product engineering, product design, AI-agent systems and search-driven products**.
+## Professional background
 
-**[Portfolio](https://agenticproductdesign.dev/)** · **[LinkedIn](https://www.linkedin.com/in/reko-makela/)** · **[Email](mailto:reko.makela@gmail.com)**
+At **Terveystalo**, I work on digital consumer services, focusing on search visibility, content and service architecture, user experience, conversion and analytics. My independent projects extend that work into full-stack product engineering and AI-agent development systems.
+
+[Professional experience](https://agenticproductdesign.dev/experience/) · [More about my work](https://agenticproductdesign.dev/about/)
+
+Most product and development-system repositories are private. The public [case studies](https://agenticproductdesign.dev/projects/) describe their scope, status and available evidence; [Signum Decoder](https://github.com/rekomakela/signum-ads) is an example with public source code.
+
+## Contact
+
+Interested in product design, product engineering, AI-agent systems and search-related work.
+
+[Portfolio](https://agenticproductdesign.dev/) · [LinkedIn](https://www.linkedin.com/in/reko-makela/) · [Email](mailto:reko.makela@gmail.com)
